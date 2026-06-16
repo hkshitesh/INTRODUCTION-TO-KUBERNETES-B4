@@ -5,4 +5,6 @@ https://docs.google.com/spreadsheets/d/1_zrPNU8PHRNLsvsUEfa0vEf2jVG4EiwpSyFFkJiV
 
 ## Some Useful Kubernetes Commands
 
+minikube start
+
 kubectl api-resources
