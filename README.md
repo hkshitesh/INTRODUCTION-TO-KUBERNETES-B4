@@ -24,3 +24,8 @@ kubectl api-resources
   aws eks --region us-east-1 describe-cluster --name hiteshCluster --query cluster.status
   
   aws eks --region us-east-1 update-kubeconfig --name hiteshCluster
+
+
+## DAY-2 Recording Link
+
+https://drive.google.com/drive/folders/1InxH_esD3K5U-FBlqsogTqWRyybsEQyi?usp=sharing
