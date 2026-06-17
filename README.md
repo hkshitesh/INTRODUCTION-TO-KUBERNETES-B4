@@ -17,3 +17,10 @@ kubectl api-resources
   unzip awscliv2.zip
   
   sudo ./aws/install
+
+
+## Command to Connect AWS EKS
+
+  aws eks --region us-east-1 describe-cluster --name hiteshCluster --query cluster.status
+  
+  aws eks --region us-east-1 update-kubeconfig --name hiteshCluster
